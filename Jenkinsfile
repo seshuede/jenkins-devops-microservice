@@ -48,5 +48,6 @@ pipeline {
 		failure {
 			echo 'I run when u fails'
 		}
+		//changed success -> fail / fail -> success
 	}
 }
